@@ -5,7 +5,6 @@ class Form extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      times: [9, 10, 11, 12, 1, 2, 3, 4, 5],
       show: false
     };
   }
@@ -17,9 +16,65 @@ class Form extends Component {
         <FormInfo
           name={this.props.name}
           number={this.props.number}
-          id={this.props.currentID}
-          times={this.state.times}
+          id="9"
           openModal={this.props.open}
+          chosenID={this.props.chosenID}
+        />
+        <FormInfo
+          name={this.props.name}
+          number={this.props.number}
+          id="10"
+          openModal={this.props.open}
+          chosenID={this.props.chosenID}
+        />
+        <FormInfo
+          name={this.props.name}
+          number={this.props.number}
+          id="11"
+          openModal={this.props.open}
+          chosenID={this.props.chosenID}
+        />
+        <FormInfo
+          name={this.props.name}
+          number={this.props.number}
+          id="12"
+          openModal={this.props.open}
+          chosenID={this.props.chosenID}
+        />
+        <FormInfo
+          name={this.props.name}
+          number={this.props.number}
+          id="1"
+          openModal={this.props.open}
+          chosenID={this.props.chosenID}
+        />
+        <FormInfo
+          name={this.props.name}
+          number={this.props.number}
+          id="2"
+          openModal={this.props.open}
+          chosenID={this.props.chosenID}
+        />
+        <FormInfo
+          name={this.props.name}
+          number={this.props.number}
+          id="3"
+          openModal={this.props.open}
+          chosenID={this.props.chosenID}
+        />
+        <FormInfo
+          name={this.props.name}
+          number={this.props.number}
+          id="4"
+          openModal={this.props.open}
+          chosenID={this.props.chosenID}
+        />
+        <FormInfo
+          name={this.props.name}
+          number={this.props.number}
+          id="5"
+          openModal={this.props.open}
+          chosenID={this.props.chosenID}
         />
       </div>
     );

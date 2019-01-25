@@ -22,8 +22,8 @@ class App extends Component {
 
   show = event => {
     this.setState({ show: true });
-    this.setState({ currentID: event.target.id });
     console.log(event.target.id);
+    this.setState({ currentID: event.target.id });
   };
 
   close = () => {
@@ -31,6 +31,7 @@ class App extends Component {
       this.setState({ show: false });
       this.setState({ name: this.state.currentName });
       this.setState({ number: this.state.currentNum });
+      console.log(this.state.name + ' ' + this.state.number);
     }
   };
 
@@ -53,7 +54,7 @@ class App extends Component {
           open={this.show}
           name={this.state.name}
           number={this.state.number}
-          id={this.state.currentID}
+          chosenID={this.state.currentID}
         />
         <div>
           <Modal
