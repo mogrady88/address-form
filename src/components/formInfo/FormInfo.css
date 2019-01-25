@@ -1,0 +1,10 @@
+.calendar {
+  /* background-color: gray; */
+  border: 1px black solid;
+  width: 100px;
+  height: auto;
+  display: inline-block;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+}
